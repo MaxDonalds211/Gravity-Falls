@@ -1,0 +1,196 @@
+*{
+    margin:0px ;
+    padding:0px ;
+}
+header{
+    display: flex;
+    background-color: #303030;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 90px;
+}
+.menu{
+    padding: 10px 20px;
+    background-color: gainsboro;
+    margin-left:70px ;
+    border-radius: 10px;
+}
+.menu:hover{
+    background-color: blueviolet;
+    color: white;
+}
+body{
+    background-color: #828282;
+}
+
+
+
+
+.block1{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+.GF{
+    width: 40%;
+}
+.AH{
+    width: 40%;
+}
+.oserial{
+    background-color: #d9d9d9; 
+    padding:10px ;
+    border-radius:10px ;
+}
+.person{
+    background-color: rgba(48, 48, 48, 0.8);
+    margin-top: 50px;
+}
+.personspisok{
+    display: flex;
+    width:90% ;
+    margin:0 auto ;
+    overflow-x: scroll;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.avotar{
+    width: 139px;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.avotar img{
+    width: 100%;
+}
+.personblock{
+    color:white ;
+    text-align: center;
+}
+.container{
+    display: flex;
+    margin:0 auto ;
+    width: 90%;
+    justify-content:space-between;
+    margin-top:40px;
+    align-items:center ;
+    
+}
+.text{
+background-color:#d9d9d9 ;
+padding:20px ;
+border-radius: 10px;
+width: 50%;
+font-size: 25px;
+}
+.dnevtext{
+    color: white;
+    font-size: 36px;
+    margin-top: 20px;
+}
+.journals1{
+    width: 90%;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-image: url(jornal123.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+.fotodnevnik{
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+}
+.fotodnevnik img{
+    height: 100%;
+}
+.textdnevnik{
+    width: 60%;
+    padding:10px ;
+    color: white;
+    font-size: 24px;
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+}
+.imgavtor img{
+    width: 30%;
+}
+.textAH{
+    background-color: #d9d9d9;
+    padding: 50px 10px;
+}
+.imgavtor{
+    width:90% ;
+    margin: 0 auto;
+}
+.footerpage{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+.footer{
+    background-color: #303030;
+}
+.footerspisok ul{
+    list-style: none;
+}
+.personimg img{
+    width: 337px;
+    height: 337px;
+}
+.personimg{
+    display: flex;
+    flex-direction: column;
+}
+.personpdiv{
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+}
+.personp1{
+    color: #0C3FF3;
+}
+.personp2{
+    color: #D000AF ;
+}
+.personp3{
+    color:chartreuse ;
+}
+.personp4{
+    color:darkgreen ;
+}
+.personp5{
+    color:orange ;
+}
+.personp6{
+    color:black ;
+}
+.personp7{
+    color:white ;
+}
+.personp8{
+    color: #371400 ;
+}
+.personp9{
+    color:gold ;
+}
+.seti{
+    display: flex;
+    flex-direction: column;
+}
+.footera li a{
+    color: white;
+    text-decoration: none;
+}
